@@ -1,6 +1,8 @@
 import './App.css';
 // import UserList from './Components/UserLIst';
-import UserList2 from './Components/UserList2';
+// import UserList2 from './Components/UserList2';
+import PostUsers from './Components/PostUsers';
+
 
 
 function App() {
@@ -8,7 +10,9 @@ function App() {
     <div className="App">
 
       {/*<Userlist />*/}
-      <UserList2 />
+    {/*<UserList2 />*/}
+      <PostUsers />
+
 
 
     </div>
